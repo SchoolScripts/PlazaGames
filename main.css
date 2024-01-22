@@ -13,8 +13,7 @@ nav {
     backdrop-filter: blur(10px) saturate(200%) brightness(70%);
     font-family: "DM_Sans", sans-serif;
     font-weight: 700;
-    font-style: italic;
-    color: #c7c9fc;
+    color: #b5d8ff;
     display: flex;
     height: 7vw;
     width: 100%;
