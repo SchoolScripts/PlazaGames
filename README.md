@@ -1,5 +1,5 @@
-# PLAZAGAMES
+# PlazaGames
 
-*Play our unblocked games*
+*Play our unblocked games everywhere*
 plazavista.netlify.app
 
