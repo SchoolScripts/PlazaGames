@@ -56,8 +56,8 @@ nav h1 {
 .search {
     display: flex;
     user-select: none;
-    margin-top: 4vw;
-    margin-right: 5vw;
+    margin-top: 2vw;
+    margin-right: 1vw;
 }
  
 .search input {
