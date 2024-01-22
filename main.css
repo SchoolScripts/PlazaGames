@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap');
 
 body {
-    background-color: #1b1b1b;
+    background-color: #212833;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -59,7 +59,7 @@ nav h1 {
 }
  
 .search input {
-    background-color: #222222;
+    background-color: #2b3340;
     border: none;
     border-radius: 1vw 0 0 1vw;
     color: #fff;
@@ -78,10 +78,10 @@ nav h1 {
 }
  
 .search button {
-    background-color: #fff;
+    background-color: #262a30;
     border: none;
     border-radius: 0 1vw 1vw 0;
-    color:#222222;
+    color:#fff;
     font-size: 1.5vw;
     font-weight: 600;
     padding: 0.8vw 1vw;
