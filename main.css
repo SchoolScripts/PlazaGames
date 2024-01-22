@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:i,b,bi&display=swap');
 
 body {
     background-color: #212833;
@@ -10,7 +11,9 @@ nav {
     top: 0;
     left: 0;
     backdrop-filter: blur(10px) saturate(200%) brightness(70%);
-    color: #edf0ff;
+    font-family: 'DM Sans', sans-serif;
+    font-style: bi;
+    color: #c7c9fc;
     display: flex;
     height: 7vw;
     width: 100%;
