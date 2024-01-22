@@ -12,7 +12,6 @@ nav {
     left: 0;
     backdrop-filter: blur(10px) saturate(200%) brightness(70%);
     font-family: 'DM_Sans', sans-serif;
-    font-weight: 600;
     color: #b5d8ff;
     display: flex;
     height: 7vw;
