@@ -11,7 +11,7 @@ nav {
     top: 0;
     left: 0;
     backdrop-filter: blur(10px) saturate(200%) brightness(70%);
-    font-family: "DM_Sans variant1", Tofu;
+    font-family: "DM_Sans", sans-serif;
     font-weight: 700;
     font-style: italic;
     color: #c7c9fc;
