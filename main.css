@@ -10,7 +10,7 @@ nav {
     top: 0;
     left: 0;
     backdrop-filter: blur(10px) saturate(200%) brightness(70%);
-    color: #fff;
+    color: #edf0ff;
     display: flex;
     height: 7vw;
     width: 100%;
@@ -78,7 +78,7 @@ nav h1 {
 }
  
 .search button {
-    background-color: #262a30;
+    background-color: #343642;
     border: none;
     border-radius: 0 1vw 1vw 0;
     color:#fff;
