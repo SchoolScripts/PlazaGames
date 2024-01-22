@@ -11,7 +11,7 @@ nav {
     top: 0;
     left: 0;
     backdrop-filter: blur(10px) saturate(200%) brightness(70%);
-    font-family: 'DM_Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #b5d8ff;
     display: flex;
     height: 7vw;
@@ -57,7 +57,7 @@ nav h1 {
     display: flex;
     user-select: none;
     margin-top: 0.5vw;
-    margin-left: 20vw;
+    margin-left: 25vw;
 }
  
 .search input {
