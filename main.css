@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:i,b,bi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700;800;900,bold,italic,bi&display=swap');
 
 body {
     background-color: #212833;
@@ -11,8 +11,9 @@ nav {
     top: 0;
     left: 0;
     backdrop-filter: blur(10px) saturate(200%) brightness(70%);
-    font-family: 'DM Sans', sans-serif;
-    font-style: bi;
+    font-family: "DM_Sans variant1", Tofu;
+    font-weight: 700;
+    font-style: italic;
     color: #c7c9fc;
     display: flex;
     height: 7vw;
