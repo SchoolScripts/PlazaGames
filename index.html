@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2c7ffc">
   <title>Plaza Games</title>
   <link rel="icon" type="image/x-icon" href="/images/favicon.png">
   <link rel="stylesheet" href="/main.css">
@@ -13,11 +14,116 @@
 
 <body>
   <nav>
-    <img src="images/plaza.png" alt="logo">
-    <h1>PLAZA‏‏‎ ‎GAMES</h1>
+    <img src="images/plaza.png" alt="logo"> onclick="javascript:location.reload();">
+    <a href="/"><h1>Plaza<span>Games</span></h1></a>
     <div class="search">
-      <input type="text" placeholder="Search..." oninput="">
-      <button><i class="fas fa-search"></i></button>
+    <input type="text" placeholder="Search" id="search" autocomplete="off" oninput="search()" aria-label="search input">
+    <button onclick="search()" aria-label="search button" id="settings-button-div">
+    <i class="fas fa-search" role="presentation"></i>
+    </button>
+    </div>
+    <div id="searchResults"></div>
+    <div class="icons">
+    <div class="icon" onclick="settings()">
+    <i class="fa-solid fa-gear" aria-label="open settings button" role="button" id="settings-button"></i>
+    </div>
+    </div>
+    </div>
+    <div class="top" id="top">
+    <div class="main" id="main">
+    <h1>Plaza<span><br>Games</span></h1>
+    <p id="paragraph">The best unblocked games for PV</p>
+    <button id="start-button">Get Started</button>
+    </div>
+    </div>
+    <div class="icons">
+    <div class="icon" onclick="settings()">
+    <i class="fa-solid fa-gear" aria-label="open settings button" role="button" id="settings-button"></i>
+    </div>
+    </div>
+    </div>
+    <div class="top" id="top">
+    <div id="popup">
+    <div id="clickBox"></div>
+    <div class="content" id="popupContent"></div>
+    </div>
+    <div id="settings">
+    <div class="taskbar">
+    <div class="option" data-page="plugins">
+    <img src="images/store.png" alt="" class="task-icon">
+    <h3>Hacks</h3>
+    </div>
+    <div class="option active" data-page="general">
+    <img src="images/cog.png" alt="" class="task-icon">
+    <h3>General</h3>
+    </div>
+    <div class="option" data-page="themes">
+    <img src="images/art.png" alt="" class="task-icon">
+    <h3>Themes</h3>
+    </div>
+    <div class="option" data-page="security">
+    <img src="images/lock.png" alt="" class="task-icon">
+    <h3>Security</h3>
+    </div>
+    </div>
+    <div id="pages">
+    <div id="plugins" class="page">
+    <div class="plugins" id="game-hacks"></div>
+    </div>
+    <div id="general" class="page">
+    <div class="tab-cloak">
+    <h2>Tab Cloak</h2>
+    <p>Pick or remove a tab cloak below!</p>
+    <hr>
+    <div class="icons">
+    <div id="phantom-set">
+    <img src="images/plaza.png" alt="icon" draggable="false" onclick="cloak('./assets/plaza.png', 'Plaza Games', 'phantom-set')">
+    <i class="fa-solid fa-xmark-large"></i>
+    </div>
+    <div id="classroom">
+    <img src="images/classroom.png" alt="icon" draggable="false" onclick="cloak('./assets/classroom.png', 'Classes', 'classroom')">
+    <i class="fa-solid fa-xmark-large"></i>
+    </div>
+    <div id="drive">
+    <img src="images/drive.png" alt="icon" draggable="false" onclick="cloak('./assets/drive.png', 'My Drive - Google Drive', 'drive')">
+    <i class="fa-solid fa-xmark-large"></i>
+    </div>
+    <div id="google">
+    <img src="images/google.png" alt="icon" draggable="false" onclick="cloak('./assets/google.png', 'Google', 'google')">
+    <i class="fa-solid fa-xmark-large"></i>
+    </div>
+    <div id="gmail">
+    <img src="images/gmail.png" alt="icon" draggable="false" onclick="cloak('./assets/gmail.png', 'Inbox (6) - Gmail', 'gmail')">
+    <i class="fa-solid fa-xmark-large"></i>
+    </div>
+    <div id="clever">
+    <i class="fa-solid fa-xmark-large"></i>
+    <img src="images/clever.png" alt="icon" draggable="false" onclick="cloak('./assets/clever.png', 'Clever | Portal', 'clever')">
+    </div>
+    </div>
+    </div>
+    <div class="safety-key">
+    <div class="key">
+    <h2>]</h2>
+    </div>
+    <h2 class="record" id="record"><i class="fa-solid fa-circle-microphone-lines"></i>Record Keystroke</h2>
+    <h3 id="save">Saved!</h3>
+    <p>Above is a <span>panic key</span>, a key when you press when a Teacher is coming so you can easily go to a school work site.</p>
+    <div class="site-options">
+    <div class="site-option active" id="gc">
+    <img src="images/classroom.png" alt="classroom">
+    <h2>Google Classroom</h2>
+    </div>
+    <div class="site-option" id="c">
+    <img src="images/canvas.png" alt="canvas">
+    <h2>Canvas</h2>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div id="themes" class="page">themes will be added in later dont worry ;)</div>
+    <div id="security" class="page">idk what too put on this page. security just sounded cool lol</div>
+    </div>
     </div>
   </nav>
 
