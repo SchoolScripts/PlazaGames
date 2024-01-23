@@ -2414,6 +2414,7 @@ a {
     .featured a:hover .play-button {
     	opacity: 1;
     	pointer-events: none;
+	border-color: #0077ff;
     }
     
     .featured .play-button i {
