@@ -2411,7 +2411,7 @@ a {
     	transition: opacity 0.2s;
     }
     
-    .featured:hover .play-button {
+    .featured a:hover .play-button {
     	opacity: 1;
     	pointer-events: none;
     	transition: all .2s ease;
