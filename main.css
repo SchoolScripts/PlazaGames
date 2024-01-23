@@ -2409,11 +2409,9 @@ a {
     	transform: translate(-50%, -50%);
     	opacity: 0;
     	transition: opacity 0.2s;
-    }
-
-    .featured:hover .play-button {
 	border-color: #0077ff;
     }
+
     
     .featured a:hover .play-button {
     	opacity: 1;
