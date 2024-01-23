@@ -2410,13 +2410,14 @@ a {
     	opacity: 0;
     	transition: opacity 0.2s;
     }
+
+    .featured:hover .play-button {
+	border-color: #0077ff;
+    }
     
     .featured a:hover .play-button {
     	opacity: 1;
     	pointer-events: none;
-    	transition: all .2s ease;
-    	transform: scale(1.03);
-	border-color: #0077ff;
     }
     
     .featured .play-button i {
