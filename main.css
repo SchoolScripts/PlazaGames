@@ -473,6 +473,15 @@ a {
 
 .game {
     position: relative;
+    	width: 13vw;
+    	height: 16vh;
+    	margin-left: .5vw;
+    	border-radius: .6vw;
+    	overflow: hidden;
+    	transition: all .2s ease;
+    	cursor: pointer;
+    	box-sizing: border-box;
+    	border: 4px solid transparent;
     display: flex;
     flex-shrink: 0;
     user-select: none;
@@ -487,6 +496,9 @@ a {
 
 .game:hover .overlay {
 	opacity: 1;
+	transition: all .2s ease;
+	transform: scale(1.03);
+	border-color: #0077ff;
 }
 
 .game:hover img {
@@ -495,7 +507,7 @@ a {
 	transform-origin: center;
 }
 
-.overlay {
+.game:overlay {
 	position: absolute;
 	top: -.5vw;
 	left: -.5vw;
