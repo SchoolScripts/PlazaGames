@@ -496,9 +496,6 @@ a {
 
 .game:hover .overlay {
 	opacity: 1;
-	transition: all .2s ease;
-	transform: scale(1.03);
-	border-color: #0077ff;
 }
 
 .game:hover img {
@@ -507,7 +504,7 @@ a {
 	transform-origin: center;
 }
 
-.game:overlay {
+.game .overlay {
 	position: absolute;
 	top: -.5vw;
 	left: -.5vw;
@@ -597,7 +594,7 @@ a {
     }
 }
 
-.game .overlay p {
+.game .overlay {
     position: absolute;
 	bottom: 2.2vw;
 	left: 1vw;
@@ -2393,7 +2390,6 @@ a {
     filter: brightness(50%);
 }
 
-
 .featured .row img {
     height: 26vw;
     width: 26vw;
@@ -2408,24 +2404,19 @@ a {
     
     .featured .play-button {
     	position: absolute;
-    	top: -.5vw;
-    	left: -.5vw;
-    	width: 18vw;
-    	height: 20vh;
-    	background-color: rgba(0, 0, 0, 0.8);
+    	top: 50%;
+    	left: 50%;
+    	transform: translate(-50%, -50%);
     	opacity: 0;
-    	transition: all .2s ease;
-    	z-index: 3;
+    	transition: opacity 0.2s;
     }
     
     .featured a:hover .play-button {
-    	transition: all .2s ease;
-    	transform: scale(1.03);
-    	border-color: #0077ff;
+    	opacity: 1;
+    	pointer-events: none;
     }
     
     .featured .play-button i {
-    	transition: all .2s ease;
-    	transform: scale(1.2);
-    	transform-origin: center;
+    	font-size: 5vw;
+    	text-shadow: 0 0 100px #2c7ffc;
     }
