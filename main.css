@@ -2411,9 +2411,11 @@ a {
     	transition: opacity 0.2s;
     }
     
-    .featured a:hover .play-button {
+    .featured:hover .play-button {
     	opacity: 1;
     	pointer-events: none;
+    	transition: all .2s ease;
+    	transform: scale(1.03);
 	border-color: #0077ff;
     }
     
