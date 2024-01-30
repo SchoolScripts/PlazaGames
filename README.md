@@ -1,5 +1,5 @@
-# PlazaGames
+# Site Shutdown
 
-*Play our unblocked games everywhere*
-plazavista.netlify.app
+*Contact our Discord for the source code*
+@game.source
 
